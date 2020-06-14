@@ -2,6 +2,17 @@
 ## functions do
 
 ## Write a short comment describing this function
+# This function creates a Matrix object that returns 4 functions:
+# - set(), get(), getinverse(), setinverse()
+#
+# set()        - Sets the value of the matrix we want to cache
+# get()        - Gets the current value of the matrix that is stored in 
+#                the cache
+# setinverse() - Function to set the value Inverse square value of a matrix in
+#              - the cache
+# getinverse() - Returns the current value of the Inverse square matrix  
+#                in the cache. Defaults to NULL
+#
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
