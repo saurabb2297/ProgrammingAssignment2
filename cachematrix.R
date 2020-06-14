@@ -20,6 +20,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+# Function that returns the Inverse square value of a matrix.
+# First, it tries to obtain the value from the cached of the passed object
+# If the return value is NOT NULL, then it will return the cached value,
+# else it will calculate the new value of the inverse squar
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
